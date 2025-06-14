@@ -44,7 +44,7 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: '机器人操作系统',
+    title: '机器人开发',
     Svg: require('@site/static/img/robot.svg').default,
     description: (
       <>

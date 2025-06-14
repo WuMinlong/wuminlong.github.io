@@ -63,43 +63,38 @@ const config: Config = {
       items: [
         {
           type: 'dropdown',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'devToolsSidebar',
           position: 'left',
-          label: 'Dev Tools',
+          label: '开发工具',
           items: [
             {
               type: 'doc',
-              label: 'Git-GitHub',
-              docId: '/category/git-github',
+              label: 'Git 使用',
+              docId: 'dev-tools/git/README',
             },
-            {
-              type: 'doc',
-              label: 'Markdown',
-              docId: '/category/markdown',
-            }
           ]
         },
         {
           type: 'dropdown',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'progLangsSidebar',
           position: 'left',
-          label: 'Prog Langs',
+          label: '编程语言',
           items: [
           ]
         },
         {
           type: 'dropdown',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'embeddedDevSidebar',
           position: 'left',
-          label: 'Embedded Dev',
+          label: '嵌入式开发',
           items: [
           ]
         },
         {
           type: 'dropdown',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'robotOsSidebar',
           position: 'left',
-          label: 'Robot OS',
+          label: '机器人开发',
           items: [
           ]
         },
